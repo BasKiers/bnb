@@ -1,0 +1,31 @@
+@import "variables.scss";
+
+body {
+  background-color: $pageBackgroundColor;
+}
+
+div > .navbar {
+  background-color: $pageBackgroundColor;
+  min-height: $pageBodyPadding;
+  height: $pageBodyPadding;
+  & > .container {
+    min-height: $pageBodyPadding;
+    margin: 0;
+    max-width: initial;
+  }
+}
+
+.section{
+  padding-top: 0 !important;
+  padding-bottom: 0 !important;
+}
+
+.content {
+  background-color: $contentBackgroundColor;
+  margin: 0 $pageBodyPadding;
+}
+
+.full-width-image-container {
+  padding: 0 $pageBodyPadding;
+  background-clip: content-box;
+}
